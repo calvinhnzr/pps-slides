@@ -11,6 +11,7 @@ export default defineConfig(async ({ command, mode }) => {
     define: {
       "process.env": env,
     },
+    base: "/pps-slides/",
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "./src"),
